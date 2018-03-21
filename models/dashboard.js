@@ -1,6 +1,6 @@
 'use strict';
 
-class Users {
+class Movies {
   selectAllMovies() {
     return new Promise((resolve, reject) => {
       const queryString = `SELECT * FROM movies`;
